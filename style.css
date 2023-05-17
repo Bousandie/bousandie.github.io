@@ -183,7 +183,7 @@ div.about-image{
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: bolder;
-    font-family: century;
+    font-family: montserrat;
     color: ivory;
     
 }
@@ -193,7 +193,7 @@ div.about-image{
     margin: 10px 20px;
     padding: 10px;
     color: ivory;
-    font-style: italic;
+    font-style: normal;
 }
 .para2{
     line-height: 3rem;
@@ -215,7 +215,7 @@ div.about-image{
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: bolder;
-    font-family: century;
+    font-family: montserrat;
     color: ivory;
 }
 #all-services{
