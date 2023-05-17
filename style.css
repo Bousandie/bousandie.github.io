@@ -1,0 +1,532 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 40px;
+    background: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,
+    rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+    width: 100%;
+    float: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 40%;
+}
+h2.logo{
+    font-family: 'Dancing Script', cursive;
+    height: 20px;
+    width: 30px;
+    text-align: left;
+    color: ivory;
+    font-size: 2rem ;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+.menu li{
+    list-style: none;
+    margin: 20px;
+    font-family: century;
+    font-weight: bold;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color : blue;
+    font-size: 2rem;
+    transition: all .8s ease;
+    color: #fff;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0.5px 5px 10px #efefef;
+    border: 5px solid #efefef;
+    border-radius: 20px;
+}
+.icon-bar{
+    background: rgb(246, 141, 13);
+}
+
+
+/*hero section starts here*/
+#hero-pic{
+    display: flex;
+    height: 600px;
+    border-radius: 50%;
+    margin: 20px;
+    padding-right: 10px;
+    right: 0%;
+    bottom: -10%;
+}
+div.hero-text{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: ivory;
+    padding-right: 10px;
+    right: 5px;
+    top: 500px;
+    position: absolute;
+}
+div.skill-description{
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    
+}
+h2.headings{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    letter-spacing: normal;
+    color: ivory;
+}
+h5.skills{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    color: ivory;
+    margin-left: 15px;
+    right: -60px;
+}
+#download{
+    display: flex;
+     justify-content: space-around;
+     margin-right: 5px;
+     margin-top: 135px;
+     text-align: center;
+     transition: all 5s ease;
+     position: relative;
+     left: -30%;
+     bottom: 2%;
+}
+.cv{
+    display: flex;
+     width: 90px;
+     height: 45px;
+     border: 1px solid black;
+     background-color: #a09a80;
+     color: black;
+     border-radius: 20px;
+     text-decoration: none;
+     font-family: century;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin-right: 10px;
+     margin-left: -25px;
+     font-size: 1.2rem;
+     color: #000;
+}
+.cv:hover{
+    cursor: pointer;
+    background-color: #4c949b;
+    box-shadow: 0 0 0 10 white;
+}
+.hire-me{
+    display: flex;
+     width: 90px;
+     height: 45px;
+     border: 1px solid black;
+     background-color: #9fc7f4;
+     color: black;
+     border-radius: 20px;
+     font-family: century;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-size: 1.2rem;
+     color: #000;
+}
+.hire-me:hover{
+    cursor: pointer;
+     background-color: brown;
+     box-shadow: 0 0 10 ivory;
+}
+/**about section**/
+#about-section{
+    display: flex;
+    background: rgba(11, 47, 86, 0.7);
+    height: 400px;
+    width: 100%;
+    margin: 20px auto;
+}
+div.text-image{
+    display: flex;
+    flex-direction: row;
+}
+
+div.about-image{
+    display: flex;
+    justify-content: right;
+    height: 350px;
+    width: 650px;
+}
+#about{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: century;
+    color: ivory;
+    
+}
+.para1{
+    line-height: 3.5rem;
+    font-size: 2rem;
+    margin: 10px 20px;
+    padding: 10px;
+    color: ivory;
+    font-style: italic;
+}
+.para2{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 10px 20px;
+    padding: 10px;
+    color: ivory;
+    
+    /**about session ends here**/
+}
+#services-section{
+    height: 250px;
+    margin: auto;
+}
+#services{
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: century;
+    color: ivory;
+}
+#all-services{
+    display: flex;
+    margin: 10px;
+}
+div.service{
+    display: flex;
+    flex-direction: column;
+}
+
+i.bi.bi-code-slash,
+i.bi.bi-circle-square,
+i.bi.bi-mastodon,
+i.bi.bi-camera2{
+    display: flex;
+    color: #fff;
+    margin: 2px auto;
+
+}
+h3{
+    text-align: center;
+    color: ivory;
+    font-family: century;
+}
+.service-para{
+    text-align: center;
+    line-height: 2rem;
+    margin: 10px;
+    color: ivory;
+    font-family: century;
+}
+.first-project{
+    color: rgb(248, 76, 196);
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+a{
+    color: #0c025f;
+    margin: 15px;
+}
+#project-section{
+    display: flex;
+    margin: auto;  
+}
+h2#projects{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: century;
+    color: ivory; 
+}
+div.project-gallery img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+h2.heading{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: century;
+    color: ivory; 
+}
+/**project section ends here**/
+/**contact section**/
+#footer-section{
+    background: rgba(11, 47, 86, 0.7);
+    height: 400px;
+    width: 100%;
+    margin: 10px auto;
+}
+#contact{ 
+    margin-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#info{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 200px;
+    margin-top: -50px;
+}
+h2#contact-me{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: century;
+    color: #000;
+}
+p.address{
+    font-family: century;
+    text-transform: uppercase;
+    line-height: 3.2rem;
+    font-size: 2.2rem;
+}
+.forms{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#name{
+   padding: 10px;
+   margin: 10px;
+   width: 150px;
+   border: none; 
+}
+
+#useremail{
+   padding: 10px;
+   margin: 10px;
+   width: 150px;
+   border: none;
+   text-transform: lowercase;
+}
+
+#subject{
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+#comment{
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px
+    text-transform: capitalize;
+    
+}
+
+#send{
+    background-color: black;
+    color: white;
+    padding: -10px;
+    margin: 10px;
+    width: 380px;
+    height: 40px;
+}
+
+#contact{
+    background-color: #efefef;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#info{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 200px;
+    margin-top: -50px;
+}
+h2#contact-me{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+    
+}
+p.address{
+    font-family: Arial;
+    text-transform: capitalize;
+    line-height: 4rem;
+}
+.forms{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#name{
+   padding: 10px;
+   margin: 10px;
+   width: 170px;
+   border: none; 
+}
+
+#useremail{
+   padding: 10px;
+   margin: 10px;
+   width: 170px;
+   border: none;
+   text-transform: lowercase;
+}
+
+#subject{
+    width: 380px;
+    height: 50px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+#comment{
+    width: 380px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px
+    
+}
+
+#send{
+    background-color: black;
+    color: white;
+    padding: -10px;
+    margin: 10px;
+    width: 380px;
+    height: 40px;
+}
+
+/**footer section**/
+div.footer{
+    text-align: center;
+    justify-content: center;
+}
+
+div.footer-icons{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+}
+i.bi.bi-facebook{
+    color: blue;
+    margin-right: 30px;
+}
+i.bi.bi-instagram{
+  margin-right: 20px;
+}
+i.bi.bi-linkedin{
+    color: #0072b1;
+    margin-left: 20px;
+}
+i.bi.bi-twitter{
+    color: #00acee;
+    margin-left: 30px;
+}
+div.footer-icons:hover{
+    color: #8768ed;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    color: red;
+}
+/**media query for responsiveness**/
+@media screen and (min-width: 320px) and (max-width: 480px){ 
+#hero-pic{
+    width: 400px;
+}
+div.hero-text{
+    display: none;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: ivory;
+    padding-right: 10px;
+    right: 5px;
+    top: 25%;
+    position: absolute;
+}
+
+h2.headings{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    letter-spacing: normal;
+    color: ivory;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1rem;
+}
+h5.skills{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: normal;
+    color: ivory;
+    margin-left: 15px;
+    right: -60px;
+}
+#download{
+    display: flex;
+     justify-content: space-around;
+     margin-right: 5px;
+     margin-top: 100px;
+     text-align: center;
+     transition: all 5s ease;
+     position: relative;
+     left: -38%;
+     bottom: 2%;
+}
+
+}
+h2.logo{
+    position: absolute;
+    left: 5%;
+    top: 0%;
+}
+}
